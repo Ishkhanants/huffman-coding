@@ -2,17 +2,17 @@
 #include <iostream>
 
 int main()
-//Caesar Aiboubinne #2
 {
 	int i, n, x;
 	char str[100];
         
-        printf("\nMutqagrvatz:\t");
+    printf("\nMutqagrvatz:\t");
 	gets_s(str);
 	
-        printf("Banali:"); scanf_s("%d", &n);
-		for (i = 0; (i < 100 && str[i] != '\0'); i++)
-			str[i] = str[i] + n; 
+    printf("Banali:"); scanf_s("%d", &n);
+	
+	for (i = 0; (i < 100 && str[i] != '\0'); i++)
+		str[i] = str[i] + n; 
         
-        printf("\nVerapohvatz:%s\n", str);
+    printf("\nVerapohvatz:%s\n", str);
 }
